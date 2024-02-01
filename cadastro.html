@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    
+    <title>Cadastro de usuario</title>
+    <link rel="icon" href="../img/logo.png">
+
+  </head>
+  <body >
+
+    <head><!--inicio cabeçalho-->
+      <nav class="navbar navbar-expand-sm navbar-light bg-secondary fixed-top">
+        <div class="container">
+  
+          <a href="inicio.html" class="navbar-brand">
+            <img src="../img/drb1.png" width="90">
+          </a>
+  
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+            <samp class="navbar-toggler-icon"></samp>
+          </button>
+  
+  
+          <div class="collapse navbar-collapse" id="nav-principal">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="inicio.html" class="nav-link">Home</a>
+              </li>
+  
+              <li class="nav-item">
+                <a href="#" class="nav-link">Operação</a>
+              </li>
+  
+              <li class="nav-item">
+                <a href="adm.html" class="nav-link">Administração</a>
+              </li>
+  
+               <li class="nav-item">
+                <a href="#" class="nav-link">Faturamento</a>
+              </li>
+  
+              <li class="nav-item">
+                <a href="#" class=""></a>
+              </li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  
+              <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn dropdown-toggle" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Victor Eduardo
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <a class="dropdown-item" href="#">Meu Perfil</a>
+                  <a class="dropdown-item" href="index.html">Sair</a>
+                </div>
+              </div>
+  
+  
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </head><!--fim cabeçalho-->
+  <br><br><br><br>  <br><br><br><br>   
+
+
+
+<!-- Button trigger modal -->
+<div class="container">
+  <div class="row">
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+      Cadastro
+    </button>
+    
+  </div>
+</div> <br><br>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cadastro</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Nome">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="CPF">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Contato">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="pis">
+            </div>
+            <div class="col">
+              <input type="date" class="form-control" placeholder="Data Nascimento">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="PIX">
+            </div>
+          </div>
+        </form>
+      
+      
+      </div>
+      <div class="modal-footer">
+      <!--  <button type="button" class="btn btn-secondary" data-dismiss="modal">Editar</button> -->
+        <button type="button" class="btn btn-primary">Salvar</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="container">
+         <div class="row">
+          <table class="table">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">Ref</th>
+                <th scope="col">Nome</th>
+                <th scope="col">CPF</th>
+                <th scope="col">Contato</th>
+                <th scope="col">pis</th>
+                <th scope="col">Data Nascimento</th>
+                <th scope="col">PIX</th>
+                <th scope="col">Editar</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>ERICK ROBERTO</td>
+                <td>403.637.698-54</td>
+                <td>13991054228</td>
+                <td>210697758100</td>
+                <td>16/121/997</td>
+                <td>403.637.698-54</td>
+                <td><a>Editar</a></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>JOSIAS OLIVEIRA DE SA</td>
+                <td>689.477.124-34</td>
+                <td>13 97411-8651</td>
+                <td>1244257771-4</td>
+                <td>30/07/1972</td>
+                <td>13974118651</td>
+                <td><a>Editar</a></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>ADRIENIO FONSECA</td>
+                <td>612.950.512-49</td>
+                <td>13 97406-6079</td>
+                <td>2678826640-7</td>
+                <td>17/04/1978</td>
+                <td>612 950 512 49</td>
+                <td><a>Editar</a></td>
+              </tr>
+            </tbody>
+          </table>
+      
+         </div>
+    </div>
+    
+
+<script src="../js/senha.js"></script>
+ <!-- JavaScript (Opcional) -->
+ <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
